@@ -1,0 +1,308 @@
+@media screen and   (max-width: 1379px){
+    .works{
+        margin-left: auto;
+        margin-right: auto;
+}
+
+@media screen and   (max-width: 1287px){
+    .card-1{
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 310px;
+        
+    }
+    .card-2{
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 310px;
+        
+    }
+    .card-3{
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 310px;
+    }
+
+}
+
+@media screen and   (max-width: 1181px){
+    .card-bottom{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .foto-work{
+        height: 350px;
+    }
+    .work-text{
+        margin-top: 50px;
+    }
+    .works h2{
+        font-size: 30px;
+    }
+    .works p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+}
+
+
+
+
+@media screen and   (max-width: 900px){
+    .works{
+        display: block;
+        text-align: center;
+    }
+    .work-text{
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .works h2{
+        font-size: 40px;
+    }
+    .works p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+    .card-bottom{
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .card-1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 340px;
+        
+    }
+    .card-2{
+        margin-bottom: 20px;
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 340px;
+        
+    }
+    .card-3{
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 340px;
+}
+
+@media screen and   (max-width: 816px){
+    .cadastro-email{
+        width: 600px;
+        height: 250px;
+    }
+    .botao-email{
+        margin-top: 10px;
+    }
+    .texto-footer{
+        width: 200px;
+    }
+
+}
+@media screen and   (max-width: 792px){
+    .foto-conteudo{
+        width: 500px;
+    }
+    .topo-conteudo h1{
+        font-size: 30px;
+    }
+    .cards-topo{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .cards-topo h5{
+        font-size: 20px;
+    }
+    .cards-topo p{
+        font-size: 12px;
+    }
+}
+
+@media screen and   (max-width: 678px){
+    .menu-esquerda{
+        margin-right: 10px;
+    }
+    .grid-footer{
+        padding-left: 40%;
+        display: block;
+        
+    }
+   
+    .cadastro-email{
+        margin-top: -1050px;
+        width: 400px;
+        height: 300px;
+    }
+
+    .campo-email{
+        width: 300px;
+    }
+    .botao-email{
+        width: 300px;
+    }
+
+    .menu-footer{
+        display: block;
+    }
+
+}
+
+@media screen and   (max-width: 617px){
+    .card-bottom{
+        width: 80%;
+    }
+}
+
+@media screen and   (max-width: 543px){
+    .foto-conteudo{
+        width: 300px;
+    }
+}
+
+@media screen and   (max-width: 467px){
+    .foto-work{
+        width: 350px;
+    height: 250px;
+    }
+    .works h2{
+        font-size: 30px;
+    }
+    .card-1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 310px;
+        
+    }
+    .card-2{
+        margin-bottom: 20px;
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width:310px;
+        
+    }
+    .card-3{
+        padding: 30px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 310px;
+}
+}
+
+@media screen and   (max-width: 439px){
+    .topo-menu{
+        margin: 0 2% 0 2%;
+    }
+    .menu ul li{
+        margin-left: 5px;
+    }
+}
+
+
+
+@media screen and   (max-width: 425px){
+    
+    .topo-conteudo h1{
+        font-size: 20px;
+        
+    }
+    .topo-conteudo p{
+        font-size: 12px;
+    }
+    .topo-conteudo button{
+        margin-top: 10px;
+    }
+    .cards-topo{
+    display: block;
+}
+.cadastro-email{
+    margin-top: -1050px;
+    width: 300px;
+    height: 300px;
+}
+.campo-email{
+    width: 250px;
+}
+.botao-email{
+    width: 250px;
+}
+
+.grid-footer{
+    padding-left: 30%;
+    display: block;
+    
+}
+}
+
+@media screen and   (max-width: 371px){
+    .card-bottom{
+        width: 100%;
+    }
+}
+
+@media screen and   (max-width: 350px){
+    .foto-work{
+        width: 320px;
+        height: 230px;
+    }
+    .card-1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 280px;
+        
+    }
+    .card-2{
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 280px;
+        
+    }
+    .card-3{
+        padding: 20px;
+        background-color: hsl(217, 28%, 15%);
+        height: 180px;
+        width: 280px;
+}
+}
+
+@media screen and   (max-width: 350px){
+    .menu ul li{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .foto-conteudo{
+        width: 250px;
+    }
+
+}
+
+
+
+
+

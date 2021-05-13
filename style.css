@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-size: 14px;
+}
+nav{
+    background-color:  hsl(217, 28%, 15%);
+    background-image: url(img/bg-curvy-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    color: hsl(0, 2%, 78%);
+    font-family: 'Raleway', sans-serif;
+    
+}
+.topo-menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 8% 0 8%;
+}
+.logo {
+    margin-top: 2%;
+}
+.menu{
+    margin-top: 3%;
+}
+.menu ul li{
+    display: inline;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+.menu ul li:hover{
+    color: white;
+}
+.topo-conteudo{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 4%;
+    text-align: center;
+}
+.topo-conteudo h1{
+    margin-top: 15px;
+    color: white;
+    font-size: 40px;
+}
+.topo-conteudo p{
+    color: white;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.topo-conteudo button{
+    color: white;
+    margin-top: 20px;
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 80px;
+    background: linear-gradient(180deg, rgba(41,214,203,1) 10%, rgba(51,158,204,1) 91%);
+    cursor: pointer;
+}
+
+/* section */
+
+section{
+    background-color:  hsl(218, 28%, 13%);
+    color: white;
+}
+/* Cards */
+
+.cards-topo{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(2)1fr;
+    grid-template-areas: "card1 card2"
+                        "card3 card4";
+    padding-top: 120px;
+}
+.cards-topo h5{
+    font-size: 25px;
+}
+.cards-topo p{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.card1, .card2, .card3, .card4{
+    padding-top: 40px;
+}
+
+/*Works*/
+
+.works{
+    justify-content: space-around;
+    margin-top: 120px;
+    margin-left: 8%;
+    margin-right: 8%;
+    display: grid;
+    grid-template-columns: repeat(2)1fr;
+    grid-template-areas: "work1 work2";
+}
+
+.works h2{
+    font-size: 40px;
+}
+.works p{
+    font-size: 17px;
+    line-height: 25px;
+}
+.work-text{
+    margin-top: 100px;
+}
+.work-text p{
+    margin-top: 15px;
+}
+
+.text-link{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    width: 150px;
+}
+
+.icon-arrow{
+    margin-left: 5px;
+    height: 18px;
+}
+
+/*Card bottom*/
+
+.card-bottom{
+    background-image: url(img/bg-quotes.png);
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(3)1fr;
+    grid-template-areas: "card-1 card-2 card-3";
+    padding-bottom: 300px;
+}
+.card-bottom h6{
+    font-size: 15px;
+}
+.profile p{
+    font-size: 11px;
+}
+.foto{
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile{
+     margin-top: 10px;
+    display: flex;
+}
+
+.card-1{
+    padding: 30px;
+    background-color: hsl(217, 28%, 15%);
+    height: 180px;
+    width: 340px;
+    
+}
+.card-2{
+    padding: 30px;
+    background-color: hsl(217, 28%, 15%);
+    height: 180px;
+    width: 340px;
+    
+}
+.card-3{
+    padding: 30px;
+    background-color: hsl(217, 28%, 15%);
+    height: 180px;
+    width: 340px;
+    
+}
+
+
+/*Email*/
+
+.cadastro-email{
+    -webkit-box-shadow: 1px 0px 10px hsl(176, 68%, 64%);
+		-moz-box-shadow:    1px 0px 10px hsl(176, 68%, 64%);
+		box-shadow:         1px 0px 0px hsl(176, 68%, 64%));
+    color: white;
+    position: relative;
+    margin: -550px auto 0;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    width: 800px;
+    height: 200px;
+    padding-top: 30px;
+    padding-bottom: 200px;
+    border-radius: 10px;
+}
+
+.texto-email h3{
+    font-size: 30px;
+
+}
+
+.texto-email p{
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.email{
+    margin-top: 30px;
+}
+
+.botao-email{
+    background: linear-gradient(180deg, rgba(41,214,203,1) 10%, rgba(51,158,204,1) 91%);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 80px;
+    cursor: pointer;
+}
+.campo-email{
+    height: 40px;
+    width: 500px;
+    border-radius: 80px;
+    border: none;
+    padding-left: 20px;
+}
+
+/*Footer*/
+.grid-footer{
+    position: relative;
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    color: white;
+    
+    display: grid;
+    grid-template-columns: repeat(4);
+    grid-template-areas: "esquerda1 esquerda 2 menufooter icones";
+    justify-content: space-around;
+}
+
+
+.menu-footer{
+    margin-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-areas: "menu-esquerda menu-direita";
+    justify-content: space-around;
+    
+}
+
+.menu-esquerda{
+    margin-right: 50px;
+}
+.menu-footer ul{
+    list-style-type: none
+}
+
+.menu-esquerda ul li a{
+    color: white;
+    text-decoration: none;
+   
+}
+.menu-esquerda ul li{
+    padding-bottom: 10px;
+}
+.menu-direita ul li{
+    padding-bottom: 10px;
+}
+.menu-direita ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.footer-esquerda-2{
+    margin-top: 65px;
+}
+.tel {
+    display: flex;
+    padding-bottom: 20px;
+}
+.footer-email{
+    display: flex;
+}
+.tel p, .footer-email p{
+    padding-left: 10px;
+}
+.icones-footer{
+    margin-top: 65px;
+}
+
+.texto-footer{
+    margin-top: 20px;
+    display: flex;
+}
+.texto-footer p{
+    padding-left: 10px;
+}
+.location{
+    height: 20px;
+}
+
+.icones-footer{
+    display: flex;
+}
+.facebook, .twitter,.instagram{
+    cursor: pointer;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 6px ;
+    height: 30px;
+    width: 30px;
+}
